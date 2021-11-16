@@ -9,9 +9,9 @@ app.use(bodyParser.json()); //converts everything that is being sent back to rea
 const routes = require('./routes/requests.js'); //Require routes from ./routes/requests.js.
 app.use('/', routes); //attaching the functionality within routes/requests.js to the express server(This is for route handling ie the '/')
 
-const helmet = require("helmet"); //Require Helmet.
+//const helmet = require("helmet"); //Require Helmet.
 //const { default: App } = require('./frontend/src/App.js');
-app.use(helmet()); //Use Helmet.
+//app.use(helmet()); //Use Helmet.
 
 app.use(express.urlencoded({ extended: false })) // So that our req.body can contain values that are either strings and arrays.
 
