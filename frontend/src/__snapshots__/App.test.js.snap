@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders without crashing 1`] = `
+<div
+  className="App"
+>
+  <div
+    id="Home"
+    style={
+      Object {
+        "height": "100vh",
+      }
+    }
+  >
+    <img
+      id="Logo3"
+      src="brale.png"
+    />
+    <a
+      href="/Signin"
+      onClick={[Function]}
+      style={
+        Object {
+          "textDecoration": "none",
+        }
+      }
+    >
+      <button
+        className="buttonRadius"
+        id="buttonhome"
+      >
+        <b>
+          Sign In
+        </b>
+      </button>
+    </a>
+  </div>
+   
+   
+   
+   
+   
+   
+</div>
+`;
