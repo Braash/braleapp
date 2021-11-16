@@ -1,6 +1,7 @@
 const express = require('express') //Require Express.
 const app = express() //Store Expresses functionality in variable.
 const mongoose = require('mongoose'); //Require Mongoose.
+const path = require('path');
 
 const bodyParser = require('body-parser'); // Allows us access to the req.body object.
 app.use(bodyParser.urlencoded({ extended: true })); //This middleware is used to make sure that the incoming message's(from react, ie req.body) content matches the content type("Content-Type": "application/json") which is specified in React
