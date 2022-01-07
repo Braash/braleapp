@@ -87,7 +87,7 @@ class MainAdmin extends Component {
     }
     //This event handler updates the dateOfEventUpdate state of this component.
     handleChangeDateOfEventUpdate(selected) {
-        this.setState({ dateOfEventUpdate: selected });
+        this.setState({ dateOfEventUpdate: event.target.value });
     }
     //This event handler updates the timeOfEventUpdate state of this component.
     handleChangeTimeOfEventUpdate(event) {
